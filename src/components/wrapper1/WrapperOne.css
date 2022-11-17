@@ -1,0 +1,17 @@
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.wrapper1{
+    background-color: #f8f9fe;
+    text-align: center;
+}
+.wrapper1 h1{
+    color: black;
+}
+.wrapper1 p{
+    font-size: 14px;
+    margin: 10px 0;
+    color: black;
+}

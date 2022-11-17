@@ -1,0 +1,31 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.branding{
+  background-color: #1d1e23;
+  color: white;
+  padding: 80px 0;
+}
+.upperMargin{
+  margin-top: 27px;
+}
+.branding h1{
+  font-size: 40px;
+  color: #c8a242;
+  margin-right: 20px;
+}
+.branding h2{
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10px 0 20px 0;
+}
+.branding p{
+  color: white;
+}
+@media screen and (max-width: 834px){
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
